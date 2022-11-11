@@ -1,0 +1,11 @@
+.hello_word {
+    color: darkorchid;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.welcome {
+    color: rgb(13, 0, 255);
+    font-size: 6rem;
+    font-weight: bold;
+}
