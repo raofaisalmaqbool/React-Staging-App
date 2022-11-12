@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import PropsWork from "../PropsWork/PropsWork";
 import "./style.css";
 
 export default function ClickEvent() {
@@ -23,6 +24,9 @@ export default function ClickEvent() {
       <br />
       <br />
       <button onClick={OnClick}>Click Me</button>
+      
+        {/* sending props to the components */}
+      <PropsWork name={'test'} email={'test@gmail.com'}/>
     </div>
   );
 }
