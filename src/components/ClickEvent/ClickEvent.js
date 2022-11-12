@@ -24,9 +24,9 @@ export default function ClickEvent() {
       <br />
       <br />
       <button onClick={OnClick}>Click Me</button>
-      
-        {/* sending props to the components */}
-      <PropsWork name={'test'} email={'test@gmail.com'}/>
+
+      {/* sending props to the components */}
+      <PropsWork name={"test"} email={"test@gmail.com"} />
     </div>
   );
 }
