@@ -1,0 +1,17 @@
+button {
+    background-color: #440ab7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .ClickEvent {
+    margin: 150px 0px 0px 0px;
+  }
