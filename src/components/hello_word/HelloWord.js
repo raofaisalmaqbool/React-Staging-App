@@ -22,7 +22,7 @@ export default function HelloWord() {
     <div className="HelloWord">
       <div className="hello_word">Hello Word</div>
       <br></br> <br></br>
-      <div className="welcome">Welcome To My React App</div>
+      <div className="welcome">Welcome To My 0 React App</div>
 
       {data.map((i) => (
         <MapImplement title={i.title} price={i.price} discription={i.discription} butonTag={i.butonTag} />
